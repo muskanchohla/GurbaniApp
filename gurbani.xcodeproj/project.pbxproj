@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		851C8D382BB3D6670092D056 /* sikhMartyrs.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 851C8D372BB3D6670092D056 /* sikhMartyrs.pdf */; };
+		A3207D402B98B2FA00FFBECF /* SikhMartyrsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3207D3F2B98B2FA00FFBECF /* SikhMartyrsViewController.swift */; };
+		A34ABFF22B92D8D600FD46F9 /* jappsahib.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A34ABFF12B92D8D600FD46F9 /* jappsahib.pdf */; };
+		A34ABFF42B92D9EE00FD46F9 /* DasamGranthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34ABFF32B92D9EE00FD46F9 /* DasamGranthViewController.swift */; };
+		A3881E1A2B89480300DAB683 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3881E192B89480300DAB683 /* AppDelegate.swift */; };
+		A3881E1C2B89480300DAB683 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3881E1B2B89480300DAB683 /* SceneDelegate.swift */; };
+		A3881E1E2B89480300DAB683 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3881E1D2B89480300DAB683 /* HomeViewController.swift */; };
+		A3881E212B89480300DAB683 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3881E1F2B89480300DAB683 /* Main.storyboard */; };
+		A3881E232B89480300DAB683 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3881E222B89480300DAB683 /* Assets.xcassets */; };
+		A3881E262B89480300DAB683 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3881E242B89480300DAB683 /* LaunchScreen.storyboard */; };
+		A3881E312B89480400DAB683 /* gurbaniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3881E302B89480400DAB683 /* gurbaniTests.swift */; };
+		A3881E3B2B89480400DAB683 /* gurbaniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3881E3A2B89480400DAB683 /* gurbaniUITests.swift */; };
+		A3881E3D2B89480400DAB683 /* gurbaniUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3881E3C2B89480400DAB683 /* gurbaniUITestsLaunchTests.swift */; };
+		A39CDCD12B9A16F4008F58CA /* Japji-Sahib-GRE.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A39CDCD02B9A16F4008F58CA /* Japji-Sahib-GRE.pdf */; };
+		A39D479A2B9321E5002B003D /* japjisahib.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A39D47992B9321E5002B003D /* japjisahib.pdf */; };
+		A3CE56A42B9014B6001A2FC1 /* Sikhism.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CE56A32B9014B6001A2FC1 /* Sikhism.swift */; };
+		A3CEFDD42B93629B007D01E8 /* TabOnLoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CEFDD32B93629B007D01E8 /* TabOnLoadViewController.swift */; };
+		A3CEFDDA2B937FCC007D01E8 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CEFDD92B937FCC007D01E8 /* QuizViewController.swift */; };
+		A3DA922C2B93536B00BC6FF4 /* MoveHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DA922B2B93536B00BC6FF4 /* MoveHomeViewController.swift */; };
+		A3F398612B9215D5004B00AF /* SikhGuruViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F398602B9215D5004B00AF /* SikhGuruViewController.swift */; };
+		A3F398632B923AA0004B00AF /* GuruGranthSahibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F398622B923AA0004B00AF /* GuruGranthSahibViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3881E2D2B89480400DAB683 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3881E0E2B89480300DAB683 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3881E152B89480300DAB683;
+			remoteInfo = gurbani;
+		};
+		A3881E372B89480400DAB683 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3881E0E2B89480300DAB683 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3881E152B89480300DAB683;
+			remoteInfo = gurbani;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		851C8D372BB3D6670092D056 /* sikhMartyrs.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = sikhMartyrs.pdf; sourceTree = "<group>"; };
+		A3207D3F2B98B2FA00FFBECF /* SikhMartyrsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SikhMartyrsViewController.swift; sourceTree = "<group>"; };
+		A34ABFF12B92D8D600FD46F9 /* jappsahib.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = jappsahib.pdf; sourceTree = "<group>"; };
+		A34ABFF32B92D9EE00FD46F9 /* DasamGranthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DasamGranthViewController.swift; sourceTree = "<group>"; };
+		A3881E162B89480300DAB683 /* gurbani.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gurbani.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3881E192B89480300DAB683 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A3881E1B2B89480300DAB683 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A3881E1D2B89480300DAB683 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A3881E202B89480300DAB683 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3881E222B89480300DAB683 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3881E252B89480300DAB683 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3881E272B89480300DAB683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3881E2C2B89480400DAB683 /* gurbaniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gurbaniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3881E302B89480400DAB683 /* gurbaniTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gurbaniTests.swift; sourceTree = "<group>"; };
+		A3881E362B89480400DAB683 /* gurbaniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gurbaniUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3881E3A2B89480400DAB683 /* gurbaniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gurbaniUITests.swift; sourceTree = "<group>"; };
+		A3881E3C2B89480400DAB683 /* gurbaniUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gurbaniUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A39CDCD02B9A16F4008F58CA /* Japji-Sahib-GRE.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Japji-Sahib-GRE.pdf"; sourceTree = "<group>"; };
+		A39D47992B9321E5002B003D /* japjisahib.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = japjisahib.pdf; sourceTree = "<group>"; };
+		A3CE56A32B9014B6001A2FC1 /* Sikhism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sikhism.swift; sourceTree = "<group>"; };
+		A3CEFDD32B93629B007D01E8 /* TabOnLoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabOnLoadViewController.swift; sourceTree = "<group>"; };
+		A3CEFDD92B937FCC007D01E8 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		A3DA922B2B93536B00BC6FF4 /* MoveHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveHomeViewController.swift; sourceTree = "<group>"; };
+		A3F398602B9215D5004B00AF /* SikhGuruViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SikhGuruViewController.swift; sourceTree = "<group>"; };
+		A3F398622B923AA0004B00AF /* GuruGranthSahibViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuruGranthSahibViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3881E132B89480300DAB683 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3881E292B89480400DAB683 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3881E332B89480400DAB683 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3881E0D2B89480300DAB683 = {
+			isa = PBXGroup;
+			children = (
+				A3881E182B89480300DAB683 /* gurbani */,
+				A3881E2F2B89480400DAB683 /* gurbaniTests */,
+				A3881E392B89480400DAB683 /* gurbaniUITests */,
+				A3881E172B89480300DAB683 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3881E172B89480300DAB683 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3881E162B89480300DAB683 /* gurbani.app */,
+				A3881E2C2B89480400DAB683 /* gurbaniTests.xctest */,
+				A3881E362B89480400DAB683 /* gurbaniUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3881E182B89480300DAB683 /* gurbani */ = {
+			isa = PBXGroup;
+			children = (
+				A34ABFF12B92D8D600FD46F9 /* jappsahib.pdf */,
+				A3881E192B89480300DAB683 /* AppDelegate.swift */,
+				A3881E1B2B89480300DAB683 /* SceneDelegate.swift */,
+				A39D47992B9321E5002B003D /* japjisahib.pdf */,
+				A3881E1D2B89480300DAB683 /* HomeViewController.swift */,
+				A3881E1F2B89480300DAB683 /* Main.storyboard */,
+				A3881E222B89480300DAB683 /* Assets.xcassets */,
+				A3881E242B89480300DAB683 /* LaunchScreen.storyboard */,
+				A3881E272B89480300DAB683 /* Info.plist */,
+				A39CDCD02B9A16F4008F58CA /* Japji-Sahib-GRE.pdf */,
+				A3CE56A32B9014B6001A2FC1 /* Sikhism.swift */,
+				A3F398602B9215D5004B00AF /* SikhGuruViewController.swift */,
+				A3F398622B923AA0004B00AF /* GuruGranthSahibViewController.swift */,
+				851C8D372BB3D6670092D056 /* sikhMartyrs.pdf */,
+				A34ABFF32B92D9EE00FD46F9 /* DasamGranthViewController.swift */,
+				A3DA922B2B93536B00BC6FF4 /* MoveHomeViewController.swift */,
+				A3CEFDD32B93629B007D01E8 /* TabOnLoadViewController.swift */,
+				A3CEFDD92B937FCC007D01E8 /* QuizViewController.swift */,
+				A3207D3F2B98B2FA00FFBECF /* SikhMartyrsViewController.swift */,
+			);
+			path = gurbani;
+			sourceTree = "<group>";
+		};
+		A3881E2F2B89480400DAB683 /* gurbaniTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3881E302B89480400DAB683 /* gurbaniTests.swift */,
+			);
+			path = gurbaniTests;
+			sourceTree = "<group>";
+		};
+		A3881E392B89480400DAB683 /* gurbaniUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3881E3A2B89480400DAB683 /* gurbaniUITests.swift */,
+				A3881E3C2B89480400DAB683 /* gurbaniUITestsLaunchTests.swift */,
+			);
+			path = gurbaniUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3881E152B89480300DAB683 /* gurbani */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3881E402B89480400DAB683 /* Build configuration list for PBXNativeTarget "gurbani" */;
+			buildPhases = (
+				A3881E122B89480300DAB683 /* Sources */,
+				A3881E132B89480300DAB683 /* Frameworks */,
+				A3881E142B89480300DAB683 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gurbani;
+			productName = gurbani;
+			productReference = A3881E162B89480300DAB683 /* gurbani.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3881E2B2B89480400DAB683 /* gurbaniTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3881E432B89480400DAB683 /* Build configuration list for PBXNativeTarget "gurbaniTests" */;
+			buildPhases = (
+				A3881E282B89480400DAB683 /* Sources */,
+				A3881E292B89480400DAB683 /* Frameworks */,
+				A3881E2A2B89480400DAB683 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3881E2E2B89480400DAB683 /* PBXTargetDependency */,
+			);
+			name = gurbaniTests;
+			productName = gurbaniTests;
+			productReference = A3881E2C2B89480400DAB683 /* gurbaniTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3881E352B89480400DAB683 /* gurbaniUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3881E462B89480400DAB683 /* Build configuration list for PBXNativeTarget "gurbaniUITests" */;
+			buildPhases = (
+				A3881E322B89480400DAB683 /* Sources */,
+				A3881E332B89480400DAB683 /* Frameworks */,
+				A3881E342B89480400DAB683 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3881E382B89480400DAB683 /* PBXTargetDependency */,
+			);
+			name = gurbaniUITests;
+			productName = gurbaniUITests;
+			productReference = A3881E362B89480400DAB683 /* gurbaniUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3881E0E2B89480300DAB683 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					A3881E152B89480300DAB683 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					A3881E2B2B89480400DAB683 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A3881E152B89480300DAB683;
+					};
+					A3881E352B89480400DAB683 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A3881E152B89480300DAB683;
+					};
+				};
+			};
+			buildConfigurationList = A3881E112B89480300DAB683 /* Build configuration list for PBXProject "gurbani" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3881E0D2B89480300DAB683;
+			productRefGroup = A3881E172B89480300DAB683 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3881E152B89480300DAB683 /* gurbani */,
+				A3881E2B2B89480400DAB683 /* gurbaniTests */,
+				A3881E352B89480400DAB683 /* gurbaniUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3881E142B89480300DAB683 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39CDCD12B9A16F4008F58CA /* Japji-Sahib-GRE.pdf in Resources */,
+				A3881E262B89480300DAB683 /* LaunchScreen.storyboard in Resources */,
+				A3881E232B89480300DAB683 /* Assets.xcassets in Resources */,
+				A34ABFF22B92D8D600FD46F9 /* jappsahib.pdf in Resources */,
+				851C8D382BB3D6670092D056 /* sikhMartyrs.pdf in Resources */,
+				A39D479A2B9321E5002B003D /* japjisahib.pdf in Resources */,
+				A3881E212B89480300DAB683 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3881E2A2B89480400DAB683 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3881E342B89480400DAB683 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3881E122B89480300DAB683 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3881E1E2B89480300DAB683 /* HomeViewController.swift in Sources */,
+				A3CEFDDA2B937FCC007D01E8 /* QuizViewController.swift in Sources */,
+				A3207D402B98B2FA00FFBECF /* SikhMartyrsViewController.swift in Sources */,
+				A3CE56A42B9014B6001A2FC1 /* Sikhism.swift in Sources */,
+				A3881E1A2B89480300DAB683 /* AppDelegate.swift in Sources */,
+				A3CEFDD42B93629B007D01E8 /* TabOnLoadViewController.swift in Sources */,
+				A34ABFF42B92D9EE00FD46F9 /* DasamGranthViewController.swift in Sources */,
+				A3F398612B9215D5004B00AF /* SikhGuruViewController.swift in Sources */,
+				A3881E1C2B89480300DAB683 /* SceneDelegate.swift in Sources */,
+				A3DA922C2B93536B00BC6FF4 /* MoveHomeViewController.swift in Sources */,
+				A3F398632B923AA0004B00AF /* GuruGranthSahibViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3881E282B89480400DAB683 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3881E312B89480400DAB683 /* gurbaniTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3881E322B89480400DAB683 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3881E3B2B89480400DAB683 /* gurbaniUITests.swift in Sources */,
+				A3881E3D2B89480400DAB683 /* gurbaniUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3881E2E2B89480400DAB683 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3881E152B89480300DAB683 /* gurbani */;
+			targetProxy = A3881E2D2B89480400DAB683 /* PBXContainerItemProxy */;
+		};
+		A3881E382B89480400DAB683 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3881E152B89480300DAB683 /* gurbani */;
+			targetProxy = A3881E372B89480400DAB683 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3881E1F2B89480300DAB683 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3881E202B89480300DAB683 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3881E242B89480300DAB683 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3881E252B89480300DAB683 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3881E3E2B89480400DAB683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3881E3F2B89480400DAB683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3881E412B89480400DAB683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = gurbani/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ios-team.gurbani";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3881E422B89480400DAB683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = gurbani/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ios-team.gurbani";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A3881E442B89480400DAB683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ios-team.gurbaniTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gurbani.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gurbani";
+			};
+			name = Debug;
+		};
+		A3881E452B89480400DAB683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ios-team.gurbaniTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gurbani.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gurbani";
+			};
+			name = Release;
+		};
+		A3881E472B89480400DAB683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ios-team.gurbaniUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gurbani;
+			};
+			name = Debug;
+		};
+		A3881E482B89480400DAB683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ios-team.gurbaniUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gurbani;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3881E112B89480300DAB683 /* Build configuration list for PBXProject "gurbani" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3881E3E2B89480400DAB683 /* Debug */,
+				A3881E3F2B89480400DAB683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3881E402B89480400DAB683 /* Build configuration list for PBXNativeTarget "gurbani" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3881E412B89480400DAB683 /* Debug */,
+				A3881E422B89480400DAB683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3881E432B89480400DAB683 /* Build configuration list for PBXNativeTarget "gurbaniTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3881E442B89480400DAB683 /* Debug */,
+				A3881E452B89480400DAB683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3881E462B89480400DAB683 /* Build configuration list for PBXNativeTarget "gurbaniUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3881E472B89480400DAB683 /* Debug */,
+				A3881E482B89480400DAB683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3881E0E2B89480300DAB683 /* Project object */;
+}

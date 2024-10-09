@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Ek-Onkar-Sikh-Mool-Mantra-Sikh-Religion_art.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Ek-Onkar-Sikh-Mool-Mantra-Sikh-Religion_art 1.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Ek-Onkar-Sikh-Mool-Mantra-Sikh-Religion_art 2.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

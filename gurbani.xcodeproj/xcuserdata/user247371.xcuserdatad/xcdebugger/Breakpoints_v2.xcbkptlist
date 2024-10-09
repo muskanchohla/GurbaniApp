@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0BCA2552-DE51-4E67-B86A-093A885397CC"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "14E142A6-D92A-4216-AAC8-BA7FAF8737CF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gurbani/QuizViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "QuizViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "14E142A6-D92A-4216-AAC8-BA7FAF8737CF - 8802d4e3d78f28c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "gurbani.QuizViewController.questions.getter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "gurbani"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user247371/Desktop/gurbani/gurbani/QuizViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "14E142A6-D92A-4216-AAC8-BA7FAF8737CF - 30a542a11375a92"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "gurbani.QuizViewController.questions.setter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "gurbani"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user247371/Desktop/gurbani/gurbani/QuizViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "14E142A6-D92A-4216-AAC8-BA7FAF8737CF - 1696d921def0c5e5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "gurbani.QuizViewController.questions.modify : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "gurbani"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user247371/Desktop/gurbani/gurbani/QuizViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "14E142A6-D92A-4216-AAC8-BA7FAF8737CF - a8869b3bf1fc6715"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "gurbani.QuizViewController.questions.modify : Swift.Array&lt;Swift.String&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "gurbani"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user247371/Desktop/gurbani/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "14E142A6-D92A-4216-AAC8-BA7FAF8737CF - 353ddc4c8c505c67"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "gurbani.QuizViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; gurbani.QuizViewController"
+                  moduleName = "gurbani"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user247371/Desktop/gurbani/gurbani/QuizViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "328">
+               </Location>
+               <Location
+                  uuid = "14E142A6-D92A-4216-AAC8-BA7FAF8737CF - 7857cf8e03e7ac42"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "gurbani.QuizViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;gurbani.QuizViewController&gt;"
+                  moduleName = "gurbani"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user247371/Desktop/gurbani/gurbani/QuizViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "304">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
